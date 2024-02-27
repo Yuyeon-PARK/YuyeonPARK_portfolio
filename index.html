@@ -83,50 +83,38 @@
                 <div class="resume-section-content">
                     <h2 class="mb-5">Projects</h2>
                     <h3 class="mb-2">Graduate School</h3>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Economic Data Analysis(경자분)</h3>
-                            <h5 class="mb-0">category: //</h5>
-                            <h5 class="mb-0">tools: R</h5>
-                            <div class="subheading mb-3">//</div>
-                            <p>It was a team project. We created an algorithm to find a solution to the N-queens problem using a local search and optimization, Simulated Annealing, Hill Climbing, and Local Beam Search. We compared their performances in accuracy and running time. I found that Simulated Annealing and Local Beam Search were superior in performance, but took a long time to calculate solutions via python.</p>
-                            <img src="compstat.png",width="250" height="310"><img src="compstat1.png",width="250" height="310">
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">November 2021 - December 2021</span></div>
-                    </div>
                     
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Data Mining(데마)</h3>
-                            <h5 class="mb-0">category: algoritm</h5>
-                            <h5 class="mb-0">tools: R, Python</h5>
-                            <div class="subheading mb-3">Final project : N-queens problem</div>
-                            <p>It was a team project. We created an algorithm to find a solution to the N-queens problem using a local search and optimization, Simulated Annealing, Hill Climbing, and Local Beam Search. We compared their performances in accuracy and running time. I found that Simulated Annealing and Local Beam Search were superior in performance, but took a long time to calculate solutions via python.</p>
-                            <img src="compstat.png",width="250" height="310"><img src="compstat1.png",width="250" height="310">
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">November 2021 - December 2021</span></div>
-                    </div>
-                    
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Selected Topics in Data Analysis I(자분특)</h3>
-                            <h5 class="mb-0">category: algoritm</h5>
-                            <h5 class="mb-0">tools: R, Python</h5>
-                            <div class="subheading mb-3">Final project : N-queens problem</div>
-                            <p>It was a team project. We created an algorithm to find a solution to the N-queens problem using a local search and optimization, Simulated Annealing, Hill Climbing, and Local Beam Search. We compared their performances in accuracy and running time. I found that Simulated Annealing and Local Beam Search were superior in performance, but took a long time to calculate solutions via python.</p>
-                            <img src="compstat.png",width="250" height="310"><img src="compstat1.png",width="250" height="310">
+                            <h5 class="mb-0">category: Functional Data Analysis </h5>
+                            <h5 class="mb-0">tools: R</h5>
+                            <div class="subheading mb-3">Final project : Spatial Functional Data Analysis using K-Means Clustering</div>
+                            <p>It was an individual project. This project aims to analyze and predict the monthly traffic volumes at both entrance and exit of Daejeon IC using the information including locations and the traffic volumes of 343 ICs in August 2021. In this paper, there are three steps to analyze functional data: 1) Making data as a functional form using Fourier basis, 2) Clustering formed data into 6 clusters through K-Means algorithm, 3) Predicting the traffic volumes of unobserved point, Daejeon IC, using kriging. </p>
+                            <p>For the entrance prediction, the estimated value is similar to the true value, on the contrary, the exit prediction could not estimate well. There are two possibilities of failure: 1) If in the resampling step, the extracted data could not represent the characteristics of each cluster, 2) If each cluster’s lengths are significantly different. Therefore, the failure of prediction in the exit might be from those two reasons.</p>
+                            <img src="자분특1.jpeg",width="250" height="310"><img src="자분특2.jpeg",width="250" height="310">
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">November 2021 - December 2021</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">March 2022 - June 2022</span></div>
                     </div>
                     
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Advanced Topics in Contemporary Statistcs(고통)</h3>
-                            <h5 class="mb-0">category: algoritm</h5>
-                            <h5 class="mb-0">tools: R, Python</h5>
-                            <div class="subheading mb-3">Final project : N-queens problem</div>
-                            <p>It was a team project. We created an algorithm to find a solution to the N-queens problem using a local search and optimization, Simulated Annealing, Hill Climbing, and Local Beam Search. We compared their performances in accuracy and running time. I found that Simulated Annealing and Local Beam Search were superior in performance, but took a long time to calculate solutions via python.</p>
-                            <img src="compstat.png",width="250" height="310"><img src="compstat1.png",width="250" height="310">
+                            <h5 class="mb-0">category: Deep learning, LSTM, Auto-Encoder, Variational Auto-Encoder </h5>
+                            <h5 class="mb-0">tools: Python</h5>
+                            <div class="subheading mb-3">Final project : Anomaly Detection of Time Series using Autoencoder, Variational Autoencoder, and with combining LSTM</div>
+                            <p>It was the individual project. This project aims to analyze and predict the anomaly of sequence of PM10 during 2021. In this paper, there are four methods to analyze PM10 data: 1) Autoencoder, 2) Variational Autoencoder, 3) LSTM-Autoencoder, 4) LSTM-Variational Autoencoder. Among those four methods, LSTM-Autoencoder performed best in terms of accuracy.</p>
+                            <p>For analyzing the trend of PM10, dataset consisted with various variables will be used in this project. Every data was collected same point, Jung-gu, Seoul. The explanations of each variable are here. There are 15 multivariate variables as X, and PM10 used as Y variable. In this data, the NA values were filled with 0 because almost blanks means there were no weather events.</p>
+                            <p>The experiments were conducted through four methodologies: Autoencoder, Variational Autoencoder, LSTM-Autoencoder, LSTM-Variational Autoencoder.</p>
+                            <p>Autoencoder consists of two parts, encoder, and decoder. It works with those processes: 1) Input data to an encoder with several layers, 2) After encoding, the result of encoding is put to the decoder using Repeatvector in Keras, 3) After decoding, the reconstructed data would be made, then compare the estimated data with real data.</p>
+                            <p>Similarly, Variational Autoencoder works with a process with four steps, but between step 2) and step 3), the latent dimension has to be added. In other words, a latent variable assigned to the Gaussian distribution would be made after encoding. Then inputting those variables into the decoder makes the reconstructed data.</p>
+                            <p>LSTM AE and LSTM VAE also follow similar flows to those models that do not relate to LSTM layers. In those two models, LSTM AE and LSTM VAE, use LSTM layers instead of vanilla denses used above. For using LSTM, it is necessary to stack the last layer with Time-distributed because LSTM is designed for analyzing the temporal sequence.
+Those four models not only do dimension reduction but also reconstruct data as similar as possible. In this regard, it is meaningful to compare those models’ performances for finding out the best model.
+</p>
+                            <p>Overall, the performances of each model are not good than expected. There are two possibilities of failure: 1) This project conducted in multivariate way, even without PM10 in X variables. In other words, the kind of the variables could deconcentrate whole data. If PM10 data was used only, then that could make better performances than now. In addition, PM10 is a weather data, that means it could be affected by various factors. However, the anomaly detection in machines does not contain the risk of being affected by those factors. That is the biggest differences of related papers and this project. 2) There were not enough time and devices to analyze it in infinite way. If GPU conducted this experiment, then it could allow us to earn much of times to analyze it.
+Although, the LSTM-AE model performed well among those four models in terms of accuracy, and if modify the LSTM-AE model in various way, the performance could be improved. In the perspective of recall for abnormal values, VAE and LSTM-VAE model performed well similarly. Therefore, the models with latent space could find anomalies well. 
+</p>
+                            <img src="고통1_lstm_ae_loss.png",width="250" height="310"><img src="고통2_anomaly_lstm_ae.png",width="250" height="310">
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">November 2021 - December 2021</span></div>
                     </div>
@@ -142,6 +130,33 @@
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">November 2021 - December 2021</span></div>
                     </div>
+                    
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Economic Data Analysis(경자분)</h3>
+                            <h5 class="mb-0">category: ARIMA, ADL, VAR</h5>
+                            <h5 class="mb-0">tools: R</h5>
+                            <div class="subheading mb-3">Final Project : Prediction of Economic Time Series Data </div>
+                            <p>It was an individual project to predict the price elasticity of demand. I analyzed wheat gross production values in the U.S. and U.S. - foreign wheat price, dollars per metric ton yearly data for the last 56 years. For the first, I defined “Domestic disappearance million metrics tons” as a variable named “Demand”, which means demanded amount of wheat in the U.S., “Price of wheat in current USD” as “Price”. In addition, I used CPI from the USA CPI in 2010 as 100. I used ARMIA, ADL, and VAR model to predict wheat price.
+Thus, it was purposed to analyze the price elasticity of domestic demand between “Demand” and “Price” in the USA. The USA is one of the biggest wheat-production countries, and consume wheat as their daily meal. Therefore, it is important to find the effect of the wheat demand on its price for forecasting consumers’ consumption behavior. Also, the Russia-Ukraina Invasion in February 2021 caused pricing fluctuation all over the world including wheat. Wheat consumption has increased year over year so it has been necessary to manage the production volume of wheat in the USA. This research and analysis could suggest how to secure wheat stably in the near future.
+</p>
+                            <img src="경자분1.png",width="250" height="310"><img src="경자분2.png",width="250" height="310"><img src="경자분3.png",width="250" height="310">
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">April 2022 - June 2022</span></div>
+                    </div>
+                    
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Data Mining(데마)</h3>
+                            <h5 class="mb-0">category: Machine Learning</h5>
+                            <h5 class="mb-0">tools: R, Python</h5>
+                            <div class="subheading mb-3">Final project : Classification of Fetal health using ML Methodologies</div>
+                            <p>It was a team project using various ML methodologies with fetal heart rate and uterine activity data to classify fetal health conditions in 3 levels; Normal, Suspect, and Pathologic. For determining the “Suspect” status, we used Machine Learning Classification such as Decision Tree, Random Forest, Support Vector Classifier, Support Vector Machine, Xgboost, and KNN. To decide the best model for finding the suspicious status of the fetus, we used 3 different types of evaluation thresholds: Accuracy, ROC, and Time. Decision Tree spent the shortest time among those methodologies but accuracy was low. Random Forest spent about 16 sec for learning and testing, and also had high accuracy. SVC had the lowest accuracy and needed about 1 minute for modeling. SVM had the 2nd highest accuracy but took the longest time for modeling. Xgboost and KNN spent reasonable time modeling and had greater accuracy than Decision Tree and SVC. Even Xgboost had the highest accuracy among those methodologies.</p>
+                            <img src="데마1.png",width="250" height="310"><img src="데마2.png",width="250" height="310"><img src="데마3.jpeg",width="250" height="310"><img src="데마4.jpeg",width="250" height="310">
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">April 2022 - June 2022</span></div>
+                    </div>
+                    
                 
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
